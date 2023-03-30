@@ -24,6 +24,4 @@ class SneakerShopApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
     );
   }
-
-  // hi
 }
