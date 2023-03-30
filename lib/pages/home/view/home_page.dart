@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:wireapps_sneaker_shop/pages/home/controller/home_controller.dart';
 import 'package:wireapps_sneaker_shop/pages/home/view/widgets/product_list_tile_view.dart';
+import 'package:wireapps_sneaker_shop/routes/routes.dart';
 import 'package:wireapps_sneaker_shop/utils/enums.dart';
 import 'package:wireapps_sneaker_shop/utils/styles/colors/app_colors.dart';
 import 'package:wireapps_sneaker_shop/utils/styles/texts/app_title_texts.dart';
@@ -168,6 +169,12 @@ class _HomePageState extends State<HomePage> {
                 ),
                 child: ProductListTileView(
                   productDataModel: _homeController.productList[index],
+                  onTapped: (productDataModel) {
+                    Get.toNamed(
+                      Routes.PRODUCT_DETAIL,
+                      arguments: productDataModel,
+                    );
+                  },
                 ),
               ),
             ),

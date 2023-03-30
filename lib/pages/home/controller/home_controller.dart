@@ -1,5 +1,4 @@
 import 'package:get/get.dart';
-import 'package:wireapps_sneaker_shop/models/data_models/product_data_model.dart';
 import 'package:wireapps_sneaker_shop/services/api_services/remote_services.dart';
 import 'package:wireapps_sneaker_shop/utils/enums.dart';
 import 'package:wireapps_sneaker_shop/utils/utils.dart';

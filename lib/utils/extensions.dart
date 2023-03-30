@@ -46,6 +46,24 @@ extension ShoeSizeTypeExtension on ShoeSizeType {
         return '0';
     }
   }
+
+  String get displayValue {
+    switch (this) {
+      case ShoeSizeType.eight:
+        return '8';
+
+      case ShoeSizeType.nine:
+        return '9';
+
+      case ShoeSizeType.ten:
+        return '10';
+
+      case ShoeSizeType.eleven:
+        return '11';
+      default:
+        return '0';
+    }
+  }
 }
 
 extension ShoeColorTypeeExtension on ShoeColorType {
