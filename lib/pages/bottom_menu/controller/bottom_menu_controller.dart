@@ -31,22 +31,6 @@ class BottomMenuController extends GetxController {
         page: HomePage(),
       ),
 
-      // // favorite page
-      // const MenuBarViewTypeModel(
-      //   iconData: Icons.favorite_border_rounded,
-      //   aciveColor: AppColors.mineShaft,
-      //   inActiveColor: AppColors.white,
-      //   page: FavoritePage(),
-      // ),
-
-      // // cart page
-      // const MenuBarViewTypeModel(
-      //   iconData: Icons.shopping_bag_outlined,
-      //   aciveColor: AppColors.mineShaft,
-      //   inActiveColor: AppColors.white,
-      //   page: CartPage(),
-      // ),
-
       // profile page
       const MenuBarViewTypeModel(
         iconData: Icons.person_outline_rounded,
