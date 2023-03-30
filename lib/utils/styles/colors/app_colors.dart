@@ -10,7 +10,7 @@ abstract class AppColors {
   static const Color black = Color(0xFF000000);
 
   // athens gray color
-  static const Color athensGray = Color(0xFFF0F1F3);
+  static const Color athensGray = Color(0xFFEFEFEF);
 
   // mine shaft color
   static const Color mineShaft = Color(0xFF313131);

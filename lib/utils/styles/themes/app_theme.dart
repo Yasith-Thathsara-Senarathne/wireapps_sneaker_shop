@@ -6,14 +6,14 @@ abstract class AppTheme {
 
   // theme data
   static ThemeData themeData = ThemeData(
-    splashColor: AppColors.athensGray,
+    splashColor: AppColors.white,
     visualDensity: VisualDensity.adaptivePlatformDensity,
     brightness: Brightness.light,
-    scaffoldBackgroundColor: AppColors.athensGray,
+    scaffoldBackgroundColor: AppColors.white,
     fontFamily: 'Poppins',
-    canvasColor: AppColors.athensGray,
+    canvasColor: AppColors.white,
     appBarTheme: const AppBarTheme(
-      color: AppColors.athensGray,
+      color: AppColors.white,
       elevation: 0,
       centerTitle: false,
     ),
