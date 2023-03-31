@@ -59,7 +59,7 @@ class _CartPageState extends State<CartPage> {
             ),
           ),
 
-          // basic details title tile view
+          // loading view
           SliverList(
             delegate: SliverChildBuilderDelegate(
               childCount: 1,
@@ -108,7 +108,7 @@ class _CartPageState extends State<CartPage> {
             ),
           ),
 
-          // basic details title tile view
+          // No data view
           SliverList(
             delegate: SliverChildBuilderDelegate(
               childCount: 1,
@@ -156,7 +156,7 @@ class _CartPageState extends State<CartPage> {
           ),
         ),
 
-        // audit list tile view
+        // product cart view
         SliverList(
           delegate: SliverChildBuilderDelegate(
             childCount: _cartController.cartProductList.length,
@@ -219,7 +219,7 @@ class _CartPageState extends State<CartPage> {
           ),
         ),
 
-        // basic details title tile view
+        // no data view
         SliverList(
           delegate: SliverChildBuilderDelegate(
             childCount: 1,
@@ -297,7 +297,7 @@ class _CartPageState extends State<CartPage> {
               ),
             ),
 
-            // upload button
+            // checkout button
             Positioned(
               left: 0,
               right: 0,

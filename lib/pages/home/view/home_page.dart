@@ -59,7 +59,7 @@ class _HomePageState extends State<HomePage> {
             ),
           ),
 
-          // basic details title tile view
+          // loading view
           SliverList(
             delegate: SliverChildBuilderDelegate(
               childCount: 1,
@@ -108,7 +108,7 @@ class _HomePageState extends State<HomePage> {
             ),
           ),
 
-          // basic details title tile view
+          // no data view
           SliverList(
             delegate: SliverChildBuilderDelegate(
               childCount: 1,
@@ -156,7 +156,7 @@ class _HomePageState extends State<HomePage> {
           ),
         ),
 
-        // audit list tile view
+        // product list view
         SliverList(
           delegate: SliverChildBuilderDelegate(
             childCount: _homeController.productList.length,
@@ -205,7 +205,7 @@ class _HomePageState extends State<HomePage> {
           ),
         ),
 
-        // basic details title tile view
+        // no data view
         SliverList(
           delegate: SliverChildBuilderDelegate(
             childCount: 1,
